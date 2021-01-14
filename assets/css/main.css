@@ -3901,9 +3901,6 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
   .c-headline.-md {
     font-size: 3.6rem;
   }
-  .c-headline.-md {
-    margin-bottom: 3.35714vw;
-  }
   .c-headline.-md::after {
     margin-top: 1.21429vw;
     width: 3rem;
