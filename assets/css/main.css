@@ -448,13 +448,13 @@ select::-ms-expand {
 .c-thumbnail > * {
   vertical-align: bottom;
 }
-.c-thumbnail::after {
+/* .c-thumbnail::after {
   content: "";
   position: absolute;
   border-style: solid;
   pointer-events: none;
   mix-blend-mode: multiply;
-}
+} (20210114)*/
 .p-carousel .c-thumbnail::after {
   z-index: 3;
 }
