@@ -1,0 +1,98 @@
+.loopSlide {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.loopSlide ul{
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-shrink: 0;
+}
+.loopSlide ul:first-child {
+    animation: slide1 60s -30s linear infinite;
+}
+
+.loopSlide ul:last-child {
+    animation: slide2 60s linear infinite;
+}
+
+.loopSlide ul li {
+    display: inline-block;
+    width: 100%;
+    min-width: 150px;
+    margin-right: 20px;
+    list-style: none;
+    text-align: center;
+}
+.loopSlide ul li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: crosshair
+}   
+.loopSlide:hover ul{
+    animation-play-state: paused;
+    }
+
+@keyframes slide1 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.loopSlide ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.loopSlide li .name {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0 0 5px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.25;
+}
+.loopSlide li .place {
+    margin: 0 0 5px;
+    padding: 3px 15px 2px;
+    background: #dedede;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 767.98px) {
+
+}
