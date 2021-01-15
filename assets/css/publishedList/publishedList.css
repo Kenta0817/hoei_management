@@ -2,3 +2,6 @@
     display:flex;
     flex-wrap: wrap;
 }
+.publishedList_top_img{
+    width:20%;
+}
