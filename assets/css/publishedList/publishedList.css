@@ -5,6 +5,10 @@
 .publishedList_top_img{
     width:40%;
 }
-.list_explanation > p{
-    text-align:center;
+.list_explanation{
+    margin-bottom:20px;
 }
+.list_explanation > span{
+    margin:auto;
+}
+
