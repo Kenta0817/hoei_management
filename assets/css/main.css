@@ -3532,6 +3532,7 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
   width: 100%;
   height: 100%;
   background: linear-gradient(-15deg, transparent 65%, rgba(102, 102, 102, 0.6));
+  cursor:crosshair;
 }
 .-shadowbright .anime-panel_img::after {
   background: linear-gradient(-15deg, transparent 65%, rgba(102, 102, 102, 0.2));
