@@ -78,4 +78,10 @@
     .content {
         width: 50vw;
       }
+    .sitetop-aboutus{
+        margin-bottom: 0;
+    }
+    .base-section + .base-section {
+        margin-top: 0;
+    }
 }
