@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .loopSlide {
     position: relative;
     display: flex;
@@ -13,11 +15,9 @@
 .loopSlide ul:first-child {
     animation: slide1 60s -30s linear infinite;
 }
-
 .loopSlide ul:last-child {
     animation: slide2 60s linear infinite;
 }
-
 .loopSlide ul li {
     display: inline-block;
     width: 100%;
@@ -94,5 +94,7 @@
 }
 
 @media (max-width: 767.98px) {
-
+    .loopSlide ul{
+        width: 100%;
+    } 
 }
