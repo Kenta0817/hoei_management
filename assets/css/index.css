@@ -948,7 +948,7 @@ body.-loaded {
     transform: skewX(17.3deg);
   }
   .sitetop-caslide_title {
-    left: 0;
+    left: 25px;
     margin-top: 1%;
     margin-bottom: 0.71429%;
     width: 58.46906%;
@@ -1371,7 +1371,7 @@ body.-loaded {
     width: calc(100% - 172px);
   }
   .sitetop-caslide_title {
-    font-size: 8.71429vw;
+    font-size: 7.5vw;
   }
   .sitetop-caslide_title.-image {
     font-size: 1.14286vw;
