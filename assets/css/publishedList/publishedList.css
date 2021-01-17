@@ -12,7 +12,7 @@
     margin:auto;
 }
 .m_table table th{
-    background:#eeeeee;
+    background:#f4f6f9;
 }
 .m_table table td{
     padding:11px 17px;
@@ -26,6 +26,8 @@
     box-sizing: border-box;
     border-bottom: 1px solid #d8d8d7;
     width: 100%;
+    word-break: break-all;
+    word-wrap: break-all;
 }
 .m_table {
     margin: 0 0 30px;
@@ -84,3 +86,20 @@
     margin-bottom: 0!important;
 }
 
+.m_table table th{
+    font-size:1.2rem;
+}
+
+.m_table table td{
+    font-size:1.2rem;
+    letter-spacing: 0.12em;
+}
+
+@media (max-width: 767.98px) {
+    .m_contact>.contact {
+        display:block;
+    }
+    .publishedList_top_img{
+        width:100%;
+    }
+}

@@ -5,19 +5,19 @@
   }
   
   .content:nth-child(1) {
-    background-color: tomato;
+    background-color: #f4f6f9;;
   }
   
   .content:nth-child(2) {
-    background-color: orange;
+    background-color: #f4f6f9;;
   }
   
   .content:nth-child(3) {
-    background-color: blue;
+    background-color: #f4f6f9;;
   }
   
   .content:nth-child(4) {
-    background-color: green;
+    background-color: #f4f6f9;;
   }
   
   /* スライドレールの枠 */
@@ -68,7 +68,7 @@
   
   .content-hover:hover {
     transform: translateY(-20px);
-    border-radius: 0 10%;
+    border-radius: 20% 0;
     box-shadow: 0 3px 10px 0 #333;
     opacity: 0.8;
     cursor: pointer;
@@ -78,10 +78,4 @@
     .content {
         width: 50vw;
       }
-    .sitetop-aboutus{
-        margin-bottom: 0;
-    }
-    .base-section + .base-section {
-        margin-top: 0;
-    }
 }
