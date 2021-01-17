@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-
+@media (min-width: 768px) {
 .content {
     width: 300px;
-    height: 300px;
   }
   
   .content:nth-child(1) {
@@ -75,4 +74,10 @@
     opacity: 0.8;
     cursor: pointer;
   }
+}
   
+@media (max-width: 767.98px) {
+    .content {
+        width: 50vw;
+      }
+}
