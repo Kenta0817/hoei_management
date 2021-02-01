@@ -3142,7 +3142,7 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
   z-index: 1004;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
   -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
