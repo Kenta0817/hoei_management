@@ -2652,8 +2652,8 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
   transition: all 0.7s linear;
 }
 .header_logo {
-  width: 52.03125vw;
-  height: 6.5625vw;
+  width: 350px;
+  height: 60px;
 }
 .header_container {
   display: -webkit-box;
@@ -3187,8 +3187,8 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
   align-items: center;
 }
 .sitemap_logo {
-  width: 16.85714vw;
-  height: 2.21429vw;
+  width: 320px;
+  height: 60px;
 }
 .sitemap_headernav {
   display: -webkit-box;
