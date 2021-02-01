@@ -3155,6 +3155,8 @@ input[type="checkbox"]:checked ~ .p-checkbox_icon::before {
 .view-sitemap .sitemap {
   visibility: visible;
   opacity: 1;
+  left: 100%;
+  transform: translateX(-100%);
 }
 .sitemap a {
   -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
